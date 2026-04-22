@@ -165,7 +165,7 @@ export const SwapCard = (): ReactElement => {
 
           <Button
             icon={<SwapOutlined />}
-              type="primary"
+            type="primary"
             className="swap-card__swap-button"
             onClick={handleSwapDirection}
             disabled={!resolvedTokenFrom || !resolvedTokenTo}
