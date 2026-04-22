@@ -1,0 +1,30 @@
+.app-layout {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, #2a3659 0%, transparent 42%),
+    radial-gradient(circle at bottom right, #11364f 0%, transparent 35%),
+    #060b17;
+}
+
+.app-content {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+}
+
+.app-header {
+  text-align: center;
+}
+
+.app-title.ant-typography {
+  color: #a4adc2;
+}
+
+.app-subtitle.ant-typography {
+  margin: 0;
+  color: #a4adc2;
+}

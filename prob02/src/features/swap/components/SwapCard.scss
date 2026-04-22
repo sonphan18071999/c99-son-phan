@@ -1,0 +1,54 @@
+.swap-card {
+  width: 100%;
+  max-width: 480px;
+  border: 1px solid #1a233c;
+  border-radius: 1rem;
+  background-color: rgba(14, 21, 39, 0.92);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.35);
+}
+
+.swap-card__content {
+  width: 100%;
+}
+
+.swap-card .ant-form-item-label > label,
+.swap-card .ant-form-item .ant-form-item-explain,
+.swap-card .ant-input-number input,
+.swap-card .ant-select-selection-item,
+.swap-card .ant-select-selection-placeholder {
+  color: #a4adc2;
+}
+
+.swap-card__amount-input {
+  width: 100%;
+}
+
+.swap-card__swap-button {
+  display: block;
+  width: 30%;
+  max-width: 30rem;
+  margin: auto;
+
+  &,
+  .anticon,
+  span:not(.anticon) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.5rem;
+    color: white;
+
+  }
+}
+
+.swap-card__rate {
+  margin-bottom: 1rem;
+}
+
+.swap-card__prices-button {
+  color: #a4adc2;
+
+  &:hover:not(:disabled) {
+    color: #ffffff;
+  }
+}
